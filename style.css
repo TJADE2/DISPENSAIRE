@@ -1,0 +1,175 @@
+
+/*corp du document*/
+.body
+{
+	background: rgba(0,0,255,0.8);
+	font-family: CASTELLAR;
+	max-width: 5000px;
+	max-height: 100px;
+	text-align: center-left;
+}
+
+#div
+{
+	margin: auto;
+}
+
+/*le header*/
+.header
+{
+	top: center;
+}
+
+.hr
+{
+	width: 100%;
+	box-shadow: 6px  6px  7px red;
+}
+
+/*navigation*/
+.nav 
+{
+	text-align: left;
+	border-radius: 2px 30px 3px 2px;
+	background: rgba(147,147,147,0.5);
+	width:130px;
+	text-shadow: 4px  3px  4px black;
+	font-family: Britannic Bold;
+	box-shadow: 6px  6px  7px black;
+}
+
+/*image*/
+
+img
+{
+	width: 350px;
+	height: 170px;
+	float: right;
+}
+
+/*liens de la plage*/
+a:hover
+{
+	color: red;
+	background: rgb(225,225,225);
+}
+
+a
+{
+	text-decoration: none;
+	color: rgba(244,244,244,0.9);
+}
+/*titre*/
+h2
+{
+	color: red;
+	text-align: center;
+	background: rgba(244,244,244,0.7);
+	border-radius: 20px 5px 6px 10px;
+	font-family: Britannic Bold;
+	box-shadow: 6px  6px  7px black;
+	text-shadow: 4px  3px  4px black;
+}
+
+.footer
+{
+	background: rgba(233,233,233,0.7);
+	bottom: right;
+	color: rgb(0,0,91);
+}
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article
+{
+	width: 600px;
+	height: 300px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background: rgba(147,147,147,0.5);
+	color: white;
+	border-radius: 10px 9px 20px 10px;
+}
+
+aside
+{
+	width: 680px;
+	height: 380px;
+	background: rgba(147,147,147,0.5) url("image.jpg") no-repeat;
+	position: relative;
+	color: white;
+	border-radius: 20px 16px 12px 7px;
+}
+
+.span
+{
+	background: rgba(255,255,255,0.9);
+	border-radius: 10px 6px 2px 4px;
+	color: red;
+	text-shadow: 4px  3px  4px black;
+}
+
+.champ
+{
+	width: 500px;
+	text-shadow: black;
+	color: white;
+	
+}
+
+.legend
+{
+	background: rgba(0,0,0,0.8);
+	text-shadow: black;
+	color: white;
+}
+
+#consultation #ordonnance
+{
+	width: 100px;
+	height: 50px;
+}
+
+.para
+{
+	font-style: justify;
+	font-family: Time New Roman;
+	font-size: 14;
+}
+
+.lien
+{
+	background: rgba(0,0,0,0.9);
+}
+
+.div
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.retour
+{
+	background: rgba(74,74,74,O.8);
+	color: white;
+	font-family: Time New Roman;
+	font-size: 	12px;
+}
+
+.fond
+{
+	background: rgba(61,71,203,0.8);
+	width: 500px;
+	height: 100px;
+	color: white;
+	text-shadow: black;
+}
