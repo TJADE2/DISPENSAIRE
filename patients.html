@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title>dispensaire</title>
+		
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body class="body">
+		<div class="div">
+			<form id="formulaire" action="POST">
+				<fieldset class="champ">
+				<legend class="legend"><center>FORMULAIRE</center></legend><br />
+				
+					<fieldset class="champ">
+						<legend class="legend"><center>Paramètre</center></legend>
+						<label for="nom">NOM___________:</label>
+						<input type="text" title="zone de saisi" name="nom" id="nom" value="" /> <br />
+						<label for="prenom">PRENOM_______:</label>
+						<input type="text" title="zone de saisi" name="prenom" id="prenom" value="" /> <br />
+						<label for="age">AGE____________:</label>
+						<input type="number" title="zone de saisi" name="age" id="age" value="" min="0" /> <br />
+						<label for="quartier">QUARTIER_____:</label>
+						<input type="text" title="zone de saisi" name="quartier" id="quartier" value="" /> <br />
+						<label for="profession">PROFESSION____:</label>
+						<input type="text" title="zone de saisi" name="profession" id="profession" value="" /> <br />
+						<label for="contact">CONTACT______:</label>
+						<input type="text" title="zone de saisi" name="contact" id="contact" value="" /> <br />
+						<label for="temperature">TEMPERATURE :</label>
+						<input type="number" title="saisir" name="temperature" id="temperature" value="" /> <br />
+						<label for="poids">POIDS__________:</label>
+						<input type="number"  title="saisir"name="poids" id="poids" value="" min="0" /> <br />
+						<label for="taille">TAILLE_________:</label>
+						<input type="number" title="saisir" name="taille" id="taille" value="" min="0" /> <br />
+						<label for="tension">TENSION_______:</label>
+						<input type="number" title="saisir" name="tension" id="tension" value="" /> <br />
+					</fieldset><br /><br />
+					
+					<fieldset class="champ">
+						<legend class="legend"> CONSULTATION (zone reserver uniquement aux madecins) </legend><br />
+						<label for="consultation">NOTE DU MEDECIN :</label>
+						<textarea name="consultation" id="consultation"></textarea> <br />
+						<label for="ordonnance">ORDONNANCE :</label>
+						<textarea name="ordonnance" id="ordonnance"></textarea> <br />
+						<center>
+						<input type="submit" value="Afficher" title="cette action vous permet d'enregistrer les informations"/>
+						<input type="reset" value="Annuler" title="cliquez et cela annule toutes vos actions"/>
+						</center>
+					</fieldset><br /><br />
+					
+						<input type="submit" value="Enregistrer" title="cette action vous permet d'enregistrer les informations" />
+						<input type="reset" value="Annuler" title="cliquez et cela annule toutes vos actions"/><br />
+						
+				</fieldset>
+				
+				
+			</form><br />
+			
+			<a href="dispensaire.html" class="retour" title="cliquez pour retourner à la page d'acceuil">Retour à la page d'acceuil</a>
+		</div>
+	
+	
+	</body>
+
+</html>
